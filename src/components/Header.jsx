@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import mainHeaderImg from '../images/main_header.png';
+import '../Pages/home/home.css';
 
 const Header = () => (
   <header className="main-header">
