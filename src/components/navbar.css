@@ -3,10 +3,11 @@ nav {
   background: var(--color-primary);
   display: grid;
   place-items: center;
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
+  background: #FBFCFC;
   box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
   -webkit-box-shadow: 3px 1px 5px 0 rgba(180, 175, 175, 0.75);
   -moz-box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
@@ -26,7 +27,7 @@ nav {
 
 .logo {
   width: 8rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .nav-links {
