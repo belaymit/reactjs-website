@@ -21,7 +21,6 @@
   --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
   --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
   --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
-
   --container-width-lg: 80%;
   --container-width-md: 90%;
   --transition: all 500ms ease;
@@ -63,5 +62,5 @@ a {
 img {
   display: block;
   object-fit: cover;
-  width: 100%;  
+  width: 100%;
 }
