@@ -14,9 +14,9 @@ const Navbar = () => {
         <img src={Logo} alt="logo" />
       </Link>
       <ul className={`nav-links ${isNavShowing ? 'show-nav' : 'hide-nav'}`}>
-        {links.map(({ name, path }) => (
-        // eslint-disable-next-line react/jsx-key
-          <li>
+        {links.map(({ name, path }, index) => (
+        // eslint-disable-next-line react/jsx-key, react/no-array-index-key
+          <li key={index}>
             <NavLink to={path} className={({ isActive }) => (isActive ? 'active-nav' : '')}>{ name }</NavLink>
             {' '}
           </li>
