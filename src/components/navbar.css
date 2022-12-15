@@ -50,7 +50,7 @@ nav {
 }
 
 .active-nav::after {
-  content: '';
+  content: "";
   display: block;
   width: 1.2rem;
   height: 1.2rem;
@@ -82,9 +82,11 @@ nav {
     width: 45%;
     flex-direction: column;
     gap: 0;
+    perspective: 400px;
   }
 
-  .active-nav {
+  .active-nav,
+  .active-nav::after {
     display: none;
   }
 
@@ -92,8 +94,41 @@ nav {
     height: 4rem;
     width: 100%;
     box-shadow: -0.9rem 1rem 2rem rgba(168, 164, 164, 0.4);
+    animation: navAnimation 600ms ease forwards;
+    transform: rotate(90deg);
+    opacity: 0;
+    transform-origin: top;
   }
 
+  .nav-links li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .nav-links li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav-links li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  .nav-links li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+
+  .nav-links li:nth-child(6) {
+    animation-delay: 1s;
+  }
+
+  .nav-links li:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+  @keyframes navAnimation {
+    to {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
   .nav-links li a {
     background-color: var(--color-primary);
     height: 100%;
