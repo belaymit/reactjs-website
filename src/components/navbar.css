@@ -32,7 +32,7 @@ nav {
 .nav-links {
   display: flex;
   align-items: center;
-  padding: 1.6rem;
+  padding: 1.3rem;
   gap: 3rem;
   margin-right: 4rem;
 }
@@ -52,13 +52,14 @@ nav {
 .active-nav::after {
   content: "";
   display: block;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 2.1rem;
+  height: .3rem;
   background: var(--color-secondary);
   position: absolute;
-  left: calc(50% - 0.6rem);
-  transform: rotate(45deg);
-  margin-top: 0.9rem;
+  left: calc(50% - 1.2rem);
+  margin-top: 1.2rem;
+  opacity: .6;
+  z-index: 0;
 }
 
 @media screen and (max-width: 1024px) {
