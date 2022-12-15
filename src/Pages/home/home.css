@@ -1,5 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.main-header {
+  /* width: 100vw; */
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 3rem 100px 0 100px;
 }
+
+.main-header-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.main-header-left h4 {
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+  font-weight: 400;
+}
+
+.main-header-left p {
+  margin: 1rem 0 3.5rem;
+  font-size: 1.1rem;
+}
+
