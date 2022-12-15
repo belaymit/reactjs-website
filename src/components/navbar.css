@@ -7,9 +7,9 @@ nav {
   top: 0;
   left: 0;
   z-index: 99;
-  box-shadow: 3px 10px 5px 0px rgba(77,70,70,0.75);
--webkit-box-shadow: 3px 1px 5px 0px rgba(180, 175, 175, 0.75);
--moz-box-shadow: 3px 10px 5px 0px rgba(77,70,70,0.75);
+  box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
+  -webkit-box-shadow: 3px 1px 5px 0 rgba(180, 175, 175, 0.75);
+  -moz-box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
 }
 
 .nav-toggle-btn {
@@ -22,7 +22,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  
 }
 
 .logo {
@@ -92,7 +91,7 @@ nav {
   .nav-links li {
     height: 4rem;
     width: 100%;
-    box-shadow: -.9rem 1rem 2rem rgba(168, 164, 164, 0.4);
+    box-shadow: -0.9rem 1rem 2rem rgba(168, 164, 164, 0.4);
   }
 
   .nav-links li a {
