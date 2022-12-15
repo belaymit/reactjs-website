@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
 import { GoThreeBars } from 'react-icons/go';
 import { MdOutlineClose } from 'react-icons/md';
-import Logo from '../images/new_logo.PNG';
+import Logo from '../images/Capture_light_react.PNG';
 import { links } from '../data';
 import './navbar.css';
 
