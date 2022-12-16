@@ -1,13 +1,12 @@
 nav {
   height: 5rem;
-  background: var(--color-primary);
   display: grid;
   place-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
-  background: #FBFCFC;
+  background: #fbfcfc;
   box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
   -webkit-box-shadow: 3px 1px 5px 0 rgba(180, 175, 175, 0.75);
   -moz-box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
@@ -34,7 +33,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 1.3rem;
-  gap: 3rem;
+  gap: 1.3rem;
   margin-right: 4rem;
 }
 
@@ -54,12 +53,12 @@ nav {
   content: "";
   display: block;
   width: 2.1rem;
-  height: .3rem;
+  height: 0.3rem;
   background: var(--color-secondary);
   position: absolute;
   left: calc(50% - 1.2rem);
   margin-top: 1.2rem;
-  opacity: .6;
+  opacity: 0.6;
   z-index: 0;
 }
 
@@ -125,12 +124,14 @@ nav {
   .nav-links li:nth-child(7) {
     animation-delay: 1.2s;
   }
+
   @keyframes navAnimation {
     to {
       transform: rotate(0);
       opacity: 1;
     }
   }
+
   .nav-links li a {
     background-color: var(--color-primary);
     height: 100%;
