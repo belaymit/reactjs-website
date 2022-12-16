@@ -8,7 +8,9 @@ const Header = () => (
     <div className="container main-header-container">
       <div className="main-header-left">
         <h4>Lorem ipsum dolor sit amet.</h4>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+        <h1>
+          System Programmers are the high priests of a low cult.  Robert S. Barton.
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Eaque, maxime vel deserunt corporis eos nostrum.
