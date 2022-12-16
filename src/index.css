@@ -107,13 +107,12 @@ section {
   gap: 1rem;
   width: 100%;
   padding: 1rem 0;
-  moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 4px 4px rgba(160, 164, 165, 0.4);
   box-shadow: 0 4px 0 rgba(148, 125, 125, 0.4);
 }
 
 .section-head span {
-  background: #2E86C1;
+  background: #2e86c1;
   padding: 0.8rem;
   border-radius: 1rem;
   color: #fff;
@@ -128,7 +127,7 @@ section {
 }
 
 .card {
-  background: #4A235A;
+  background: #4a235a;
   border: 2px solid transparent;
   text-align: center;
   padding: 3rem 2rem;
@@ -144,7 +143,7 @@ section {
 .card span {
   width: 3rem;
   height: 3rem;
-  background:#0689e0;
+  background: #0689e0;
   font-size: 1.5rem;
   padding: 0.8rem;
   color: #fff;
