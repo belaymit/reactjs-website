@@ -1,12 +1,12 @@
 nav {
   height: 5rem;
-  background: var(--color-primary);
   display: grid;
   place-items: center;
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
+  background: #fbfcfc;
   box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
   -webkit-box-shadow: 3px 1px 5px 0 rgba(180, 175, 175, 0.75);
   -moz-box-shadow: 3px 10px 5px 0 rgba(77, 70, 70, 0.75);
@@ -26,14 +26,14 @@ nav {
 
 .logo {
   width: 8rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  padding: 1.6rem;
-  gap: 3rem;
+  padding: 1.3rem;
+  gap: 1.3rem;
   margin-right: 4rem;
 }
 
@@ -50,15 +50,16 @@ nav {
 }
 
 .active-nav::after {
-  content: '';
+  content: "";
   display: block;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 2.1rem;
+  height: 0.3rem;
   background: var(--color-secondary);
   position: absolute;
-  left: calc(50% - 0.6rem);
-  transform: rotate(45deg);
-  margin-top: 0.9rem;
+  left: calc(50% - 1.2rem);
+  margin-top: 1.2rem;
+  opacity: 0.6;
+  z-index: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -82,9 +83,11 @@ nav {
     width: 45%;
     flex-direction: column;
     gap: 0;
+    perspective: 400px;
   }
 
-  .active-nav {
+  .active-nav,
+  .active-nav::after {
     display: none;
   }
 
@@ -92,6 +95,41 @@ nav {
     height: 4rem;
     width: 100%;
     box-shadow: -0.9rem 1rem 2rem rgba(168, 164, 164, 0.4);
+    animation: navAnimation 600ms ease forwards;
+    transform: rotate(90deg);
+    opacity: 0;
+    transform-origin: top;
+  }
+
+  .nav-links li:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .nav-links li:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .nav-links li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  .nav-links li:nth-child(5) {
+    animation-delay: 800ms;
+  }
+
+  .nav-links li:nth-child(6) {
+    animation-delay: 1s;
+  }
+
+  .nav-links li:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+
+  @keyframes navAnimation {
+    to {
+      transform: rotate(0);
+      opacity: 1;
+    }
   }
 
   .nav-links li a {
