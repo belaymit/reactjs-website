@@ -148,3 +148,10 @@ section {
   background: var(--color-secondary);
   color: #0d0f75;
 }
+
+.card small {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
+  color: #fbfcfc;
+}
