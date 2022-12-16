@@ -105,6 +105,11 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(160, 164, 165, 0.4);
+  box-shadow: 0 4px 0 rgba(148, 125, 125, 0.4);
 }
 
 .section-head span {
@@ -113,6 +118,24 @@ section {
   border-radius: 1rem;
   color: #fff;
   font-size: 1.5rem;
+  position: relative;
+}
+
+.section-head span::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 230px;
+  height: 2px;
+  border-radius: 10px;
+  background: rgb(119, 4, 4);
+}
+
+.section-head h2 {
+  background: -webkit-linear-gradient(#e97b14, hsl(330, 91%, 21%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card {
