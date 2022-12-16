@@ -95,3 +95,56 @@ img {
 .btn.sm:hover {
   background: var(--color-gray-100);
 }
+
+section {
+  margin-top: 10rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.section-head span {
+  background: #2E86C1;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.card {
+  background: #4A235A;
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem 0 3rem;
+}
+
+.card:hover {
+  background: #351941;
+  border-color: var(--color-gray-500);
+  cursor: default;
+}
+
+.card span {
+  width: 3rem;
+  height: 3rem;
+  background:#0689e0;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.card:hover span {
+  background: var(--color-secondary);
+  color: #0d0f75;
+}
