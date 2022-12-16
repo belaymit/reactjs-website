@@ -10,9 +10,7 @@ import '../Pages/home/home.css';
 const Programs = () => (
   <section className="programs">
     <div className="container program-container">
-      <div className="program-head">
-        <SectionHead icon={<FaCrown />} title="Programs" />
-      </div>
+      <SectionHead icon={<FaCrown />} title="Programs" />
       <div className="program-wrapper">
         {
           programs.map(({
