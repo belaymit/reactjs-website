@@ -44,7 +44,7 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
-  color: #34495E;
+  color: #34495e;
 }
 
 h1 {
@@ -66,11 +66,11 @@ img {
 }
 
 .btn {
-  color: #FDFEFE;
+  color: #fdfefe;
   width: fit-content;
   margin: 0 auto;
   padding: 0.9rem 2rem;
-  background: #2E86C1;
+  background: #2e86c1;
   border-radius: 1.5rem;
   transition: var(--transition);
 }
