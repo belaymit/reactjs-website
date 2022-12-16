@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mainHeaderImg from '../images/main_header.png';
+import mainHeaderImg from '../images/full-stack-headline-image.png';
 import '../Pages/home/home.css';
 
 const Header = () => (
@@ -12,8 +12,8 @@ const Header = () => (
           System Programmers are the high priests of a low cult.  Robert S. Barton.
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Eaque, maxime vel deserunt corporis eos nostrum.
+          Full Stack Developers have to have some skills in a wide variety of coding niches,
+          from databases to graphic design and UI/UX management in order to do their job well.
         </p>
         <Link to="/plans" className="btn lg">Get Started</Link>
       </div>

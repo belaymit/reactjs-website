@@ -54,3 +54,34 @@
 .main-header-right:hover .main-header-circle {
   filter: blur(5px);
 }
+
+/* Programs */
+.program-container {
+  padding: 0 64px;
+  background: #e5e7e9;
+  border-top-right-radius: 4.5rem;
+}
+
+.programs {
+  margin-top: 4rem;
+}
+
+.program-wrapper {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.8rem;
+}
+
+.programs-program a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.programs-program:hover a {
+  background: var(--color-secondary);
+  color: #fff;
+}

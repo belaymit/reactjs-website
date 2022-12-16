@@ -95,3 +95,74 @@ img {
 .btn.sm:hover {
   background: var(--color-gray-100);
 }
+
+section {
+  margin-top: 10rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  -webkit-box-shadow: 0 4px 4px rgba(160, 164, 165, 0.4);
+  box-shadow: 0 4px 0 rgba(148, 125, 125, 0.4);
+}
+
+.section-head span {
+  background: #2e86c1;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.section-head h2 {
+  background: -webkit-linear-gradient(#e97b14, hsl(330, 91%, 21%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  background: #4a235a;
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem 0 3rem;
+}
+
+.card:hover {
+  background: #351941;
+  border-color: var(--color-gray-500);
+  cursor: default;
+}
+
+.card span {
+  width: 3rem;
+  height: 3rem;
+  background: #0689e0;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.card:hover span {
+  background: var(--color-secondary);
+  color: #0d0f75;
+}
+
+.card small {
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
+  color: #fbfcfc;
+}
