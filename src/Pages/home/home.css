@@ -72,3 +72,16 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: .8rem;
 }
+
+.programs-program a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.programs-program:hover a {
+  background: var(--color-secondary);
+  color: #fff
+}
