@@ -1,6 +1,5 @@
 .main-header {
-  /* width: 100vw; */
-  height: 100vh;
+  height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
   margin: 3rem 100px 0 100px;
@@ -21,9 +20,16 @@
   font-weight: 400;
 }
 
+.main-header-left h1 {
+  background: -webkit-linear-gradient(#e93e14, hsl(330, 91%, 21%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .main-header-left p {
   margin: 1rem 0 3.5rem;
   font-size: 1.1rem;
+  color: #5d6d7e;
 }
 
 .main-header-right {
@@ -38,12 +44,13 @@
   background: linear-gradient(75deg, var(--color-secondary), transparent);
   border-radius: 50%;
   position: absolute;
+  transition: var(--transition);
 }
 
 .main-header-image {
   position: relative;
 }
 
-.main-header:hover .main-header-circle {
+.main-header-right:hover .main-header-circle {
   filter: blur(5px);
 }
