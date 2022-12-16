@@ -121,17 +121,6 @@ section {
   position: relative;
 }
 
-.section-head span::before {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 230px;
-  height: 2px;
-  border-radius: 10px;
-  background: rgb(119, 4, 4);
-}
-
 .section-head h2 {
   background: -webkit-linear-gradient(#e97b14, hsl(330, 91%, 21%));
   -webkit-background-clip: text;
