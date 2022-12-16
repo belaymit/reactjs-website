@@ -64,3 +64,34 @@ img {
   object-fit: cover;
   width: 100%;
 }
+
+.btn {
+  color: #FDFEFE;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background: #2E86C1;
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.btn.sm:hover {
+  background: var(--color-gray-100);
+}

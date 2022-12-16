@@ -26,3 +26,24 @@
   font-size: 1.1rem;
 }
 
+.main-header-right {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.main-header-circle {
+  width: 25rem;
+  height: 25rem;
+  background: linear-gradient(75deg, var(--color-secondary), transparent);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.main-header-image {
+  position: relative;
+}
+
+.main-header:hover .main-header-circle {
+  filter: blur(5px);
+}
