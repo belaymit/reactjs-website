@@ -86,7 +86,7 @@
   color: #fff;
 }
 
-/* Values Section*/
+/* Values Section */
 
 .values {
   border-top-right-radius: 3rem;
@@ -102,10 +102,9 @@
 }
 
 .values-img {
-  filter: saturate(.25);
+  filter: saturate(0.25);
   margin-top: 3rem;
   transition: var(--transition);
-
 }
 
 .values-img:hover {
