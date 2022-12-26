@@ -4,6 +4,7 @@ import { values } from '../data';
 import fullStackEng from '../images/full-stack-engineer.jpeg';
 import SectionHead from './SectionHead';
 import Card from '../UI/Card';
+import '../Pages/home/home.css';
 
 const Values = () => (
   <section className="values">
