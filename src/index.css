@@ -103,7 +103,6 @@ section {
 .section-head {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
   width: 100%;
   padding: 1rem 0;
@@ -135,7 +134,7 @@ section {
 }
 
 .card:hover {
-  background: #351941;
+  background: #2e2930;
   border-color: var(--color-gray-500);
   cursor: default;
 }
