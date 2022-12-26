@@ -85,3 +85,55 @@
   background: var(--color-secondary);
   color: #fff;
 }
+
+/* Values Section*/
+
+.values {
+  border-top-right-radius: 3rem;
+  background: #e5e7e9;
+  margin: 8rem 64px 0 64px;
+  padding: 1rem;
+}
+
+.values-container {
+  display: grid;
+  grid-template-columns: 38% 50%;
+  gap: 12%;
+}
+
+.values-img {
+  filter: saturate(.25);
+  margin-top: 3rem;
+  transition: var(--transition);
+
+}
+
+.values-img:hover {
+  filter: saturate(1);
+}
+
+.values-img img {
+  border-radius: 1.8rem;
+}
+
+.values-right > p {
+  margin: 1.5rem 0 5rem;
+  color: rgb(139, 137, 137);
+}
+
+.values-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.2rem 2.4rem;
+}
+
+.card.values-value {
+  padding-top: 3.5rem;
+  text-align: left;
+  position: relative;
+}
+
+.card.values-value span {
+  position: absolute;
+  top: -1.5rem;
+}
