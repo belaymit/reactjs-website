@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookF } from 'react-icons/fa';
 import { AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
-import Logo from '../images/Capture_light_react.PNG';
+import Logo from '../images/murple_logo.png';
 
 const Footer = () => (
   <footer className="footer-section">
     <div className="container footer-container">
-      <article>
+      <article className="footer-logo">
         <Link to="/">
           <img src={Logo} alt="footer-logo" />
         </Link>
@@ -23,7 +23,7 @@ const Footer = () => (
             {' '}
           </a>
           <a href="https://facebook.com" target="_blank" rel="noreferrer noopener">
-            <FaFacebook />
+            <FaFacebookF />
             {' '}
           </a>
           <a href="https://twitter.com" target="_blank" rel="noreferrer noopener">
@@ -36,7 +36,7 @@ const Footer = () => (
           </a>
         </div>
       </article>
-      <article>
+      <article className="footer-links">
         <h4>Permalinks</h4>
         <Link to="/about">About</Link>
         <Link to="/plans">Plans</Link>
@@ -44,7 +44,7 @@ const Footer = () => (
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact</Link>
       </article>
-      <article>
+      <article className="footer-links">
         <h4>Insights</h4>
         <Link to="/s">Blog</Link>
         <Link to="/s">Case Studies</Link>
@@ -52,7 +52,7 @@ const Footer = () => (
         <Link to="/s">Communities</Link>
         <Link to="/s">FAQs</Link>
       </article>
-      <article>
+      <article className="footer-links">
         <h4>Get in Touch</h4>
         <Link to="/contact">Contact Us</Link>
         <Link to="/s">Support</Link>
