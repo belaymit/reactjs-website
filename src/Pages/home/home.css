@@ -187,3 +187,152 @@
   background: rgb(134, 131, 131);
   color: #fff;
 }
+
+/* testimonial */
+
+.testimonials {
+  background: #fcfcfc;
+  margin: 8rem 64px 0 64px;
+  padding: 2rem 6rem;
+  width: 60rem;
+  margin-inline: auto;
+}
+
+.testimonials-head {
+  justify-content: center;
+}
+
+.card.testimonial {
+  position: relative;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.testimonial-avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
+  border: 2px solid transparent;
+  overflow: hidden;
+  position: absolute;
+  top: -2rem;
+  left: calc(50% - 2rem);
+  box-shadow: 0 1.5rem 2rem rgba(26, 26, 26, 0.4);
+  transition: var(--transition);
+}
+
+.testimonial:hover .testimonial-avatar {
+  border-radius: 50%;
+  border-color: var(--color-gray-400);
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin: 1rem 0 2rem;
+}
+
+.card small .testimonial-title {
+  margin-top: 0.3rem;
+}
+
+.testimonial-btn-container {
+  width: fit-content;
+  margin: 0.5rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.testimonials-btn {
+  background: transparent;
+  cursor: pointer;
+}
+
+.testimonials-btn svg {
+  fill: var(--color-secondary);
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Footer section */
+
+.footer-section {
+  background: #181816;
+  margin-top: 4rem;
+  
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 26rem 1fr 1fr 1fr;
+  gap: 6rem;
+  padding: 2rem 1rem;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-container article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.footer-container article p {
+  margin-top: 0.5rem;
+  color: rgb(163, 162, 162);
+}
+
+.footer-container article h4 {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.footer-socials {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-socials a {
+  background: var(--color-gray-100);
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  transition: var(--transition);
+}
+
+.footer-socials a:hover {
+  border: rgb(126, 65, 8);
+  background: rgb(197, 133, 15);
+}
+
+.footer-socials a svg {
+  color: var(--color-gray-600);
+  transition: var(--transition);
+}
+
+.footer-socials a:hover svg {
+  color: #fff;
+}
+.footer-links h4 {
+  color: rgb(192, 105, 5);
+}
+
+.footer-links a {
+  color: #fff;
+}
+
+.footer-copyright {
+  color: var(--color-gray-100);
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--color-primary-variant);
+  margin-top: 5rem;
+}
