@@ -9,7 +9,7 @@ import './navbar.css';
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
   return (
-    <nav className="container nav-container">
+    <nav className="nav-container">
       <Link to="/" className="logo" onClick={() => setIsNavShowing(false)}>
         <img src={Logo} alt="logo" />
       </Link>
