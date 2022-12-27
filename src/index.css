@@ -24,6 +24,7 @@
   --container-width-lg: 80%;
   --container-width-md: 90%;
   --transition: all 500ms ease;
+  --light-background-color: #f7f7f9;
 }
 
 body {
@@ -31,11 +32,12 @@ body {
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  background: var(--color-primary);
+  background: var(--light-background-color);
 }
 
 .container {
   margin-inline: auto;
+  margin: 0 4rem;
 }
 
 h1,
