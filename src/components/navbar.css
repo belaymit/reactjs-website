@@ -27,6 +27,7 @@ nav {
 .logo {
   width: 8rem;
   margin-left: 4rem;
+  display: block;
 }
 
 .nav-links {
